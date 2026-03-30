@@ -31,6 +31,8 @@ body {
     font-weight: 900;
 }
 
+/* The Header and the Hero are not connected, they just have the same background color */
+
 .hero{
     display: flex;
     justify-content: space-between;
@@ -120,6 +122,8 @@ img {
     font-size: 18px;
     color: #1F2937;
 }
+
+/* The subtext of the blocks is not connected to the blocks, depending on changes they could become misaligned */
 
 .QuoteBox{ 
     background: #E5E7EB;
